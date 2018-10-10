@@ -17,7 +17,6 @@ If you do that's alright, you will have to create a brand new key and add it to 
 Creating GitHub repos, saving changes to your github, and accessing folders and files through terminal is part of every Developer's essential tools. Navigating and using the terminal is not easy, but you can always find support with a quick google search. 
 
 #### Terminal Commands
-h3. SHORTCUTS
 
 {background:#ddd}. |_. Key/Command |_. Description |
 | Tab | Auto-complete files and folder names |
