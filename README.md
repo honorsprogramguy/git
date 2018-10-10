@@ -1,6 +1,6 @@
-# Git SSH Keys & Basic Git Commands
+# Git SSH Keys, Terminal Commands and Basic Git Commands
 
-## Generating an SSH key
+#### Generating an SSH key
 After creating an SSH key, and adding it to your GitHub account you will not have to do it again! You will be prompted for your SSH key passphrase later on for security reasons.. So don't forget that passcode!
 
 If you do that's alright, you will have to create a brand new key and add it to your GitHub account again. 
@@ -8,15 +8,11 @@ If you do that's alright, you will have to create a brand new key and add it to 
 [Directions to make one are provided by GitHub here](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
 
 
-## Adding a new SSH key to your GitHub account
+#### Adding a new SSH key to your GitHub account
 [Directions on adding a new SSH Key provided by GitHub here](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
 
 
-
-## Creating a Repo For the *1st time*
-Creating GitHub repos, saving changes to your github, and accessing folders and files through terminal is part of every Developer's essential tools. Navigating and using the terminal is not easy, but you can always find support with a quick google search. 
-
-#### Terminal Commands
+## Terminal Commands
 
 | Key/Command | Description |
 ------------ | -------------
@@ -31,7 +27,6 @@ Creating GitHub repos, saving changes to your github, and accessing folders and 
 | Ctrl + R | Lets you search through previously used commands |
 | Ctrl + L or Command + K | Clears the Screen |
 | Ctrl + C | Kill whatever you are running |
-| Ctrl + D | Exit the current shell |
 
 
 #### CORE COMMANDS
@@ -47,7 +42,6 @@ Creating GitHub repos, saving changes to your github, and accessing folders and 
 | ls -a | Listing incl. hidden files |
 | ls -lh | Long listing with Human readable file sizes |
 | ls -R | Entire content of folder recursively |
-| sudo [command] | Run command with the security privileges of the superuser (Super User DO) |
 | open [file] | Opens a file |
 | open . | Opens the directory |
 | top | Displays active processes. Press q to quit |
@@ -93,17 +87,6 @@ Creating GitHub repos, saving changes to your github, and accessing folders and 
 | mkdir -p [dir]/[dir] | Create nested directories |
 | rmdir [dir] | Remove directory ( only operates on empty directories ) |
 | rm -R [dir] | Remove directory and contents |
- 
-
-
-#### PIPES - Allows to combine multiple commands that generate output
-| Key/Command | Description |
------------- | -------------
-| more | Output content delivered in screensize chunks |
-| > [file] | Push output to file, keep in mind it will get overwritten |
-| >> [file] | Append output to existing file |
-| < | Tell command to read content from a fi |
-
 
 #### HELP
 | Key/Command | Description |
@@ -114,3 +97,8 @@ Creating GitHub repos, saving changes to your github, and accessing folders and 
 | reset | Resets the terminal display |
 | man [command] | Show the help for 'command' |
 | whatis [command] | Gives a one-line description of 'command' |
+
+
+
+## Creating a Repo For the *1st time*
+Creating GitHub repos, saving changes to your github, and accessing folders and files through terminal is part of every Developer's essential tools. Navigating and using the terminal is not easy, but you can always find support with a quick google search. 
