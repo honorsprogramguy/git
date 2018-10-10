@@ -18,7 +18,8 @@ Creating GitHub repos, saving changes to your github, and accessing folders and 
 
 #### Terminal Commands
 
-{background:#ddd}. |_. Key/Command |_. Description |
+| Key/Command | Description |
+------------ | -------------
 | Tab | Auto-complete files and folder names |
 | Ctrl + A | Go to the beginning of the line you are currently typing on |
 | Ctrl + E | Go to the end of the line you are currently typing on |
