@@ -100,5 +100,33 @@ If you do that's alright, you will have to create a brand new key and add it to 
 
 
 
-## Creating a Repo For the *1st time*
-Creating GitHub repos, saving changes to your github, and accessing folders and files through terminal is part of every Developer's essential tools. Navigating and using the terminal is not easy, but you can always find support with a quick google search. 
+## Git Commands
+Creating GitHub repos, saving changes to your github, and accessing folders and files through terminal is part of every Developer's essential tools. 
+
+#### Creating your First Repository 
+
+```sh
+#navigate to the folder you want to put on GitHub
+$ touch README.md #this creates a file called README.md this is a markdown file. Developers use this for a place to put instructions, a description about the project you can scroll to the top of this page, hit raw and see exactly how I wrote this MarkDown file
+$ git add . #this adds everything changed in this repo from local to staging
+$ git commit -m 'first commit' #this commits everything in staging to be ready to be pushed into GitHub it's important to include a -m (message) with this commit because it's for you and future developers to understand what happened during this commit. What changes happened at this point in time
+$ git remote add origin git@github.com:yourGitHubUserName/yourRepoName.git #this links your github repo to your local folder on your machine. 
+$ git push origin master # this pushes from staging to the repo on github
+```
+#### Whenever you wanna add changes to your repository online
+
+```sh
+$ git add . 
+$ git add -u #when you have deleted a local file and you want to remove from your repository 
+$ git commit -m 'what has changed'
+$ git push origin
+```
+
+#### When you want to get someone else's repo onto your machine
+
+```sh
+# first fork the repo you want to work on, forking will take the repo, and make an exact copy onto your personal GitHub account
+$ git clone git@github.com:yourUsername/yourReponame.git
+```
+
+#### When 
