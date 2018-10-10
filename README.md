@@ -128,5 +128,3 @@ $ git push origin
 # first fork the repo you want to work on, forking will take the repo, and make an exact copy onto your personal GitHub account
 $ git clone git@github.com:yourUsername/yourReponame.git
 ```
-
-#### When 
